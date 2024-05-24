@@ -51,12 +51,12 @@ int main() {
     vector<string> words;
     string word;
 
-    // Read the input words separated by spaces
+    // Read the input words
     while (cin >> word) {
         words.push_back(word);  // Add each word to the vector
     }
 
-    Paginate(words);  // Wrap and paginate the input text
+    Paginate(words);  // Paginate the input text
 
     return 0;
 }
